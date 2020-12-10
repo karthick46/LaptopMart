@@ -19,8 +19,6 @@ public class LaptopMartApplicationTests {
   void testGet_1()
   {
 	  Response response=RestAssured.get("http://localhost:9090/laptop/alllaptops");
-	  
-	  System.out.println("_________________________________");
 	  System.out.println(response.asString());
 	  System.out.println(response.getStatusCode());
 	  System.out.println(response.getStatusLine());
