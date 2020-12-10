@@ -1,0 +1,10 @@
+com.teleapps
+com.teleapps.lm
+com.teleapps.lm.configuration
+com.teleapps.lm.controller
+com.teleapps.lm.endpoint
+com.teleapps.lm.entity
+com.teleapps.lm.repository
+com.teleapps.lm.service
+com.teleapps.lm.soap
+com.teleapps.lm.soap.config

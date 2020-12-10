@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="lm.teleapps.com/SOAP" xmlns:tns="lm.teleapps.com/SOAP"
+    elementFormDefault="qualified">
+
+    <xsd:element name="LaptopIdRequest">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="p_id" type="xsd:int" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="LaptopDetailsResponse">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="laptopType" type="tns:laptopType" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="laptopType">
+        <xsd:sequence>
+            <xsd:element name="p_name" type="xsd:string" />
+            <xsd:element name="ram" type="xsd:string" />
+            <xsd:element name="price" type="xsd:double" />
+             <xsd:element name="count" type="xsd:int" />
+            
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema> 
